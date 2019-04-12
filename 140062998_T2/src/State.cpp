@@ -72,10 +72,10 @@ void State::Input() {
   	// SDL_PollEvent retorna 1 se encontrar eventos, zero caso contrário
   	while (SDL_PollEvent(&event)) {
 
-      /*// Se o evento for quit, setar a flag para terminação
+      // Se o evento for quit, setar a flag para terminação
     if(event.type == SDL_QUIT) {
   			quitRequested = true;
-  		}*/
+  		}
 
   		// Se o evento for clique...
   		if(event.type == SDL_MOUSEBUTTONDOWN) {
@@ -97,7 +97,8 @@ void State::Input() {
   					Face* face = (Face*)go->GetComponent( "Face" );
   					if ( nullptr != face ) {
   						// Aplica dano
-  						face->Damage(std::rand() % 10 + 10);
+  						//face->Damage(std::rand() % 10 + 10);
+              face->Damage(10);
               cout << "\nCheguei aq: "<< __FILE__ << "|" <<  __func__ << ":" << __LINE__ << "\n";
   						// Sai do loop (só queremos acertar um)
   						break;
