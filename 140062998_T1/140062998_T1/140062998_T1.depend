@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1553876704 source:/home/lucasncc/IDJ/140062998_T1/140062998_T1/src/Game.cpp
+	"Game.h"
+	<stdio.h>
+	"SDL_include.h"
+	<SDL2/SDL_audio.h>
+
+1553875892 /home/lucasncc/IDJ/140062998_T1/140062998_T1/include/Game.h
+	"SDL_include.h"
+	"State.h"
+	<iostream>
+	<string>
+
+1553128117 /home/lucasncc/IDJ/140062998_T1/140062998_T1/include/SDL_include.h
+	<SDL2/SDL.h>
+	"TargetConditionals.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"TargetConditionals.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_mixer.h>
+	"TargetConditionals.h"
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_ttf.h>
+	"TargetConditionals.h"
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_net.h>
+	"TargetConditionals.h"
+	<SDL2/SDL_net.h>
+	<SDL2/SDL_net.h>
+
+1553875733 source:/home/lucasncc/IDJ/140062998_T1/140062998_T1/src/main.cpp
+	"Game.h"
+
+1553871152 /home/lucasncc/IDJ/140062998_T1/140062998_T1/include/State.h
+	"Music.h"
+	"Sprite.h"
+	"SDL_include.h"
+	<iostream>
+	<string>
+
+1553875821 /home/lucasncc/IDJ/140062998_T1/140062998_T1/include/Music.h
+	"SDL_include.h"
+	<iostream>
+	<string>
+
+1553875844 /home/lucasncc/IDJ/140062998_T1/140062998_T1/include/Sprite.h
+	"SDL_include.h"
+	<iostream>
+	<string>
+
+1553876146 source:/home/lucasncc/IDJ/140062998_T1/140062998_T1/src/Music.cpp
+	"Music.h"
+	<stdio.h>
+	"SDL_include.h"
+
+1553876238 source:/home/lucasncc/IDJ/140062998_T1/140062998_T1/src/Sprite.cpp
+	"Sprite.h"
+	<stdio.h>
+	"SDL_include.h"
+	"Game.h"
+
+1553876658 source:/home/lucasncc/IDJ/140062998_T1/140062998_T1/src/State.cpp
+	"State.h"
+	<stdio.h>
+	"SDL_include.h"
+	"Music.h"
+

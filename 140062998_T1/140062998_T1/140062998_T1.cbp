@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="140062998_T1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/140062998_T1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="assets" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDL2 -lSDL2main -lSDL2_mixer -lSDL2_image -lSDL2_ttf" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="assets/audio/boom.wav" />
+		<Unit filename="assets/audio/endStateLose.ogg" />
+		<Unit filename="assets/audio/endStateWin.ogg" />
+		<Unit filename="assets/audio/stageState.ogg" />
+		<Unit filename="assets/font/Call me maybe.ttf" />
+		<Unit filename="assets/font/License - READ THIS.txt" />
+		<Unit filename="assets/img/alien.png" />
+		<Unit filename="assets/img/aliendeath.png" />
+		<Unit filename="assets/img/cubngun.png" />
+		<Unit filename="assets/img/lose.jpg" />
+		<Unit filename="assets/img/minion.png" />
+		<Unit filename="assets/img/minionbullet1.png" />
+		<Unit filename="assets/img/minionbullet2.png" />
+		<Unit filename="assets/img/miniondeath.png" />
+		<Unit filename="assets/img/ocean.jpg" />
+		<Unit filename="assets/img/penguin.png" />
+		<Unit filename="assets/img/penguinbullet.png" />
+		<Unit filename="assets/img/penguindeath.png" />
+		<Unit filename="assets/img/penguinface.png" />
+		<Unit filename="assets/img/tileset.png" />
+		<Unit filename="assets/img/title.jpg" />
+		<Unit filename="assets/img/win.jpg" />
+		<Unit filename="assets/map/tileMap.txt" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Music.h" />
+		<Unit filename="include/SDL_include.h" />
+		<Unit filename="include/Sprite.h" />
+		<Unit filename="include/State.h" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Music.cpp" />
+		<Unit filename="src/Sprite.cpp" />
+		<Unit filename="src/State.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

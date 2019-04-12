@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553170841 source:/home/lucasncc/IDJ/Teste/teste/teste.cpp
+	<SDL2/SDL.h>
+	<stdio.h>
+
